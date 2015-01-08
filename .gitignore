@@ -1,0 +1,6 @@
+# compiled CSS
+app/css/*
+
+# Dependency directories
+node_modules
+bower_components

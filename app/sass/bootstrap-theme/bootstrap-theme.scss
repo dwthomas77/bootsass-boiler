@@ -1,0 +1,49 @@
+@import "variables";
+
+body {
+    background-color: $secondary-soft;
+    color: $font-color;
+    font-family: $font-family;
+}
+
+header {
+    background-color: $primary-soft;
+    color: $primary-bold;
+    text-align: center;
+    padding: 25px;
+
+    h1 {
+        margin:0px;
+        padding: 0px;
+    }
+}
+
+.navbar-default {
+    background-color: $primary-bold;
+    color: $font-contrast-color;
+    border:none;
+
+    .navbar-brand{
+        color: $primary-soft;   
+
+        &:hover, &:focus {
+            color: $font-contrast-color;
+        }
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                color: $primary-soft;
+            }
+
+            a:hover, a:focus {
+                color: $font-contrast-color;
+            }
+        }
+        .active > a, .active > a:hover, .active > a:focus {
+            background-color: $primary-soft;
+            color: $primary-bold;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+/* Color Scheme
+    * PRIMARY COLORS - define the brand's most important color
+    *
+    * primary-soft:  use for less important elements on page
+    * primary-strong: use for more important elements on page
+    * primary-bold: use for borders and contrasting sections
+    *
+    * SECONDARY COLORS  - contrast against the primary colors
+    *
+    * secondary-soft: subdued secondary color - page background
+    * secondary-strong: more intense secondary color - contrasting secondary color
+    *
+*/
+
+$primary-soft: #C5D9F8;
+$primary-strong: #4582DD;
+$primary-bold: #2358BD;
+
+$secondary-soft: #B8B8B8;
+$secondary-strong: #7D7D7D;
+
+/* Break Point Widths */
+$break-small: 520px;
+$break-large: 1200px;
+
+/* Font */
+$font-family: Verdana, Geneva, sans-serif;
+$font-color: #000000;
+$font-contrast-color: #ffffff;
